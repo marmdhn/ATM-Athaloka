@@ -1,0 +1,268 @@
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.Development.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.staticwebassets.runtime.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.exe
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.deps.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.runtimeconfig.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.pdb
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Core.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Identity.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Humanizer.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.CodeDom.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Json.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.AssemblyReference.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfoInputs.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfo.cs
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.CoreCompileInputs.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.MvcApplicationPartsAssemblyInfo.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cs
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.ATMBank_.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.build.ATMBank_.props
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ATMBank_.props
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ATMBank_.props
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.build.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.development.json
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\bundle\ATMBank_.styles.css
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\projectbundle\ATMBank_.bundle.scp.css
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.CopyComplete
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\refint\ATMBank_.dll
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.pdb
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.genruntimeconfig.cache
+D:\Pekerjaan\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ref\ATMBank_.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.Development.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.staticwebassets.runtime.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.exe
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.deps.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.runtimeconfig.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.pdb
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Core.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Identity.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Humanizer.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.CodeDom.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Memory.Data.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Json.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.AssemblyReference.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.GeneratedMSBuildEditorConfig.editorconfig
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfoInputs.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfo.cs
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.CoreCompileInputs.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.MvcApplicationPartsAssemblyInfo.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cs
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.ATMBank_.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.build.ATMBank_.props
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ATMBank_.props
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ATMBank_.props
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.build.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.development.json
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\bundle\ATMBank_.styles.css
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\projectbundle\ATMBank_.bundle.scp.css
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.CopyComplete
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\refint\ATMBank_.dll
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.pdb
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.genruntimeconfig.cache
+D:\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ref\ATMBank_.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.Development.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\appsettings.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.staticwebassets.runtime.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.exe
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.deps.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.runtimeconfig.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.pdb
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Core.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Azure.Identity.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Humanizer.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.CodeDom.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Text.Json.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.AssemblyReference.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfoInputs.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.AssemblyInfo.cs
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.CoreCompileInputs.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.RazorAssemblyInfo.cs
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.sourcelink.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.build.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.development.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.ATMBank_.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.build.ATMBank_.props
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ATMBank_.props
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ATMBank_.props
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\bundle\ATMBank_.styles.css
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\scopedcss\projectbundle\ATMBank_.bundle.scp.css
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.csproj.Up2Date
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\refint\ATMBank_.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.pdb
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ATMBank_.genruntimeconfig.cache
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\ref\ATMBank_.dll
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\bin\Debug\net6.0\ATMBank_.staticwebassets.endpoints.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Work\PT Akhdani Reka Solusi\OJT\ATMBank_\ATMBank_\obj\Debug\net6.0\staticwebassets\msbuild.ATMBank_.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

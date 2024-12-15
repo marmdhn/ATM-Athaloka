@@ -1,0 +1,106 @@
+﻿@page "/"
+@using ATMBank_.Data;
+@using ATMBank_.Models;
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Cryptography;
+@using System.Text;
+@inject NavigationManager NavigationManager
+@inject UserService userService
+@inject AdminService adminService
+@inject NasabahService nasabahService
+
+<div class="main">
+	<div class="row row-login">
+		<div class="col-md-6 left">
+			<div class="input-box">
+				<header class="fs-3"><b>Selamat Datang!</b></header>
+				<EditForm Model="TempInfoUser">
+					<div class="input-field">
+						<InputText @bind-Value="TempInfoUser.Username" type="text" class="input" id="username" required autocomplete="off"/>
+						<label for="username">Username</label>
+					</div>
+					<div class="input-field">
+						<InputText @bind-Value="TempInfoUser.Password" type="password" class="input" id="password" required />
+						<label for="password">Password</label>
+					</div>
+					<div class="input-field">
+						<button @onclick="handleSubmit" class="btn btn-primary submit">Login</button>
+					</div>
+				</EditForm>	
+				@if (ShowWarning)
+				{
+					<p class="text-danger fw-bold mt-3 text-center">@Warning</p>
+				}
+			</div>
+		</div>
+		<div class="col-md-6 side-image"></div>
+	</div>
+	<div class="footer">
+		<div class="copyright">
+			<p>All Rights Reserved to <b class="text-white">marmdhn</b> 2023</p>
+		</div>
+	</div>
+</div>
+
+@code {
+	private TempInfo TempInfoUser = new TempInfo();
+
+	List<User>? UserList;
+
+	List<Nasabah>? NasabahList;
+
+	List<Admin>? AdminList;
+
+	bool ShowWarning = false;
+
+	string? Warning;
+
+	protected override async Task OnInitializedAsync()
+	{
+		UserList = await Task.Run(() => userService.GetAllUser());
+		NasabahList = await Task.Run(() => nasabahService.GetAllNasabah());
+		AdminList = await Task.Run(() => adminService.GetAllAdmin());
+	}
+
+	private void handleSubmit()
+	{
+		var user = UserList!.FirstOrDefault(u => u.Username == TempInfoUser.Username);
+
+		if (user != null)
+		{
+			using (MD5 md5 = MD5.Create())
+			{
+				byte[] enteredPasswordBytes = Encoding.UTF8.GetBytes(TempInfoUser.Password!);
+
+				byte[] hashedEnteredPasswordBytes = md5.ComputeHash(enteredPasswordBytes);
+
+				string hashedEnteredPassword = BitConverter.ToString(hashedEnteredPasswordBytes).Replace("-", "").ToLower();
+
+				if (hashedEnteredPassword == user.Password)
+				{
+					if (user.Role == 0)
+					{
+						NavigationManager.NavigateTo($"/admin/{user.Id}/chooseATM");
+					}
+					else if (user.Role == 1)
+					{
+						NavigationManager.NavigateTo($"/nasabah/{user.Id}/chooseATM");
+					}
+				}
+				else
+				{
+					ShowWarning = true;
+					Warning = "Username atau password salah";
+				}
+			}
+		}
+		else
+		{
+			ShowWarning = true;
+			Warning = "Username atau password salah";
+		}
+	}
+
+}
+

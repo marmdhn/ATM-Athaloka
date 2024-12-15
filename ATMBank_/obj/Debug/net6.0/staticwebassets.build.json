@@ -1,0 +1,2288 @@
+{
+  "Version": 1,
+  "Hash": "6VepvJhqJuISQZ3Cqp1+oDnmDl5PRBv0z6iWOFM0Jsw=",
+  "Source": "ATMBank_",
+  "BasePath": "_content/ATMBank_",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ATMBank_\\wwwroot",
+      "Source": "ATMBank_",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ATMBank_.styles.css",
+      "SourceId": "ATMBank_",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "ATMBank_#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "6tcoto8eoz",
+      "Integrity": "2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ATMBank_.styles.css"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ATMBank_.bundle.scp.css",
+      "SourceId": "ATMBank_",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "ATMBank_#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "6tcoto8eoz",
+      "Integrity": "2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ATMBank_.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z189sdz1gv",
+      "Integrity": "+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "10uzszoped",
+      "Integrity": "oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3cg08az021",
+      "Integrity": "s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "prgg6f6j8q",
+      "Integrity": "5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\site.css",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tyrb9ztzsu",
+      "Integrity": "VQevRjdyRLUGOR+d0OUhaagtfxuqAqLLT5r9qtnc0PA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\favicon.ico",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\background.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k4ue7yh1y7",
+      "Integrity": "BA8kaELIcp43VzaJBaHd5RVPYUK8ToVGY+nG5j5Axx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-image.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lfiyzinfsk",
+      "Integrity": "L7M6Y6Jb4ffAqgJNotWJYdy38ieW5itUC5YcpPBiCsY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-image.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-setor-tunai.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-setor-tunai#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5d7af25lo",
+      "Integrity": "m3vgQSIfz/uTwpmD6TPeNxR8bdOnxyuUincFUG/Sx7A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-setor-tunai.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tambah-atm.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-tambah-atm#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhypfmzm5n",
+      "Integrity": "G07JnsfOWHXEWCcB2yRbgArNzQJ/kyyhtENbjvt5698=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-tambah-atm.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tarik-tunai.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-tarik-tunai#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hhxwzd9v40",
+      "Integrity": "hRiIppDWAANzm/xBbU6pWHov2vgbgjk2yOi0p3wK/bM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-tarik-tunai.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-casette.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-update-casette#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "29hzp1pvop",
+      "Integrity": "6hAtYbHy2NLHl4wk5ZcjEUx3Fc6IbuIibBXhaiv6duE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-update-casette.png"
+    },
+    {
+      "Identity": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-nasabah.png",
+      "SourceId": "ATMBank_",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\",
+      "BasePath": "_content/ATMBank_",
+      "RelativePath": "images/side-update-nasabah#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3zbc41eily",
+      "Integrity": "n0/ahHZ/Vks+V/tPsAHZoUpVXm93ORguubYG1I96NDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\side-update-nasabah.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "ATMBank_.6tcoto8eoz.bundle.scp.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ATMBank_.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6tcoto8eoz"
+        },
+        {
+          "Name": "label",
+          "Value": "ATMBank_.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg="
+        }
+      ]
+    },
+    {
+      "Route": "ATMBank_.6tcoto8eoz.styles.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ATMBank_.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6tcoto8eoz"
+        },
+        {
+          "Name": "label",
+          "Value": "ATMBank_.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg="
+        }
+      ]
+    },
+    {
+      "Route": "ATMBank_.bundle.scp.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ATMBank_.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg="
+        }
+      ]
+    },
+    {
+      "Route": "ATMBank_.styles.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ATMBank_.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:57:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vPrlidl30VXBC7vvr+xhQJbZb6AvLoZVF79m5Zbhzg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.z189sdz1gv",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z189sdz1gv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.10uzszoped.svg",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "10uzszoped"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.3cg08az021",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3cg08az021"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.prgg6f6j8q.md",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "prgg6f6j8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VQevRjdyRLUGOR+d0OUhaagtfxuqAqLLT5r9qtnc0PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VQevRjdyRLUGOR+d0OUhaagtfxuqAqLLT5r9qtnc0PA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tyrb9ztzsu.css",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VQevRjdyRLUGOR+d0OUhaagtfxuqAqLLT5r9qtnc0PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tyrb9ztzsu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VQevRjdyRLUGOR+d0OUhaagtfxuqAqLLT5r9qtnc0PA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/background.k4ue7yh1y7.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BA8kaELIcp43VzaJBaHd5RVPYUK8ToVGY+nG5j5Axx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4ue7yh1y7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BA8kaELIcp43VzaJBaHd5RVPYUK8ToVGY+nG5j5Axx4="
+        }
+      ]
+    },
+    {
+      "Route": "images/background.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BA8kaELIcp43VzaJBaHd5RVPYUK8ToVGY+nG5j5Axx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BA8kaELIcp43VzaJBaHd5RVPYUK8ToVGY+nG5j5Axx4="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-image.lfiyzinfsk.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2508662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L7M6Y6Jb4ffAqgJNotWJYdy38ieW5itUC5YcpPBiCsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfiyzinfsk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L7M6Y6Jb4ffAqgJNotWJYdy38ieW5itUC5YcpPBiCsY="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-image.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2508662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L7M6Y6Jb4ffAqgJNotWJYdy38ieW5itUC5YcpPBiCsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L7M6Y6Jb4ffAqgJNotWJYdy38ieW5itUC5YcpPBiCsY="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-setor-tunai.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-setor-tunai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m3vgQSIfz/uTwpmD6TPeNxR8bdOnxyuUincFUG/Sx7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m3vgQSIfz/uTwpmD6TPeNxR8bdOnxyuUincFUG/Sx7A="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-setor-tunai.x5d7af25lo.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-setor-tunai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m3vgQSIfz/uTwpmD6TPeNxR8bdOnxyuUincFUG/Sx7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5d7af25lo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-setor-tunai.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m3vgQSIfz/uTwpmD6TPeNxR8bdOnxyuUincFUG/Sx7A="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-tambah-atm.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tambah-atm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "377917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G07JnsfOWHXEWCcB2yRbgArNzQJ/kyyhtENbjvt5698=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G07JnsfOWHXEWCcB2yRbgArNzQJ/kyyhtENbjvt5698="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-tambah-atm.xhypfmzm5n.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tambah-atm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "377917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G07JnsfOWHXEWCcB2yRbgArNzQJ/kyyhtENbjvt5698=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhypfmzm5n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-tambah-atm.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G07JnsfOWHXEWCcB2yRbgArNzQJ/kyyhtENbjvt5698="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-tarik-tunai.hhxwzd9v40.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tarik-tunai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "709514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRiIppDWAANzm/xBbU6pWHov2vgbgjk2yOi0p3wK/bM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhxwzd9v40"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-tarik-tunai.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRiIppDWAANzm/xBbU6pWHov2vgbgjk2yOi0p3wK/bM="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-tarik-tunai.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-tarik-tunai.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "709514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRiIppDWAANzm/xBbU6pWHov2vgbgjk2yOi0p3wK/bM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRiIppDWAANzm/xBbU6pWHov2vgbgjk2yOi0p3wK/bM="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-update-casette.29hzp1pvop.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-casette.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hAtYbHy2NLHl4wk5ZcjEUx3Fc6IbuIibBXhaiv6duE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "29hzp1pvop"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-update-casette.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hAtYbHy2NLHl4wk5ZcjEUx3Fc6IbuIibBXhaiv6duE="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-update-casette.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-casette.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hAtYbHy2NLHl4wk5ZcjEUx3Fc6IbuIibBXhaiv6duE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hAtYbHy2NLHl4wk5ZcjEUx3Fc6IbuIibBXhaiv6duE="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-update-nasabah.3zbc41eily.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-nasabah.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1031006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0/ahHZ/Vks+V/tPsAHZoUpVXm93ORguubYG1I96NDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3zbc41eily"
+        },
+        {
+          "Name": "label",
+          "Value": "images/side-update-nasabah.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0/ahHZ/Vks+V/tPsAHZoUpVXm93ORguubYG1I96NDA="
+        }
+      ]
+    },
+    {
+      "Route": "images/side-update-nasabah.png",
+      "AssetFile": "D:\\Work\\PT Akhdani Reka Solusi\\OJT\\ATMBank_\\ATMBank_\\wwwroot\\images\\side-update-nasabah.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1031006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0/ahHZ/Vks+V/tPsAHZoUpVXm93ORguubYG1I96NDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 03:28:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0/ahHZ/Vks+V/tPsAHZoUpVXm93ORguubYG1I96NDA="
+        }
+      ]
+    }
+  ]
+}

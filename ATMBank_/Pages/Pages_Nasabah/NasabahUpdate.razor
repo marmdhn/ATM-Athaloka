@@ -1,0 +1,102 @@
+﻿@page "/nasabah/{UserId:int}/{atmId:int}/nasabahUpdate"
+@using ATMBank_.Data
+@using ATMBank_.Models;
+@using System;
+@using System.Security.Cryptography;
+@using System.Text;
+@using ATMBank_.Pages.Pages_Utils
+@inject NasabahService nasabahService
+@inject UserService userService 
+@inject NavigationManager NavigationManager
+
+<PageTitle>ATM Bank</PageTitle>
+
+<div class="bg-nasabah">
+    <div class="container pt-3">
+
+        <Navbar roleId="user.Role" userId="UserId"></Navbar>
+
+        <div class="row">
+            <div class="col-lg-12 text-white text-center mt-5">
+                <h3 class="fw-bold">Update Akun</h3>
+            </div>
+        </div>
+
+        <div class="row row-input m-auto">
+            <div class="col-lg-6 col-md-4 side-image-update-nasabah"></div>
+            <div class="col-lg-6 col-md-4 right m-auto">
+                <div class="input-box text-white">
+                    <EditForm Model="nasabah" OnInvalidSubmit="HandleSubmit">
+                        <div class="mb-3">
+                            <label for="jumlah" class="form-label fw-bold">Nama:</label>
+                            <InputText id="jumlah" @bind-Value="nasabah.NamaNasabah" class="form-control">
+                            </InputText>
+                        </div>
+                        <div class="mb-3">
+                            <label for="jumlah" class="form-label fw-bold">Pin ATM:</label>
+                            <InputNumber id="jumlah" @bind-Value="nasabah.PinAtm" class="form-control">
+                            </InputNumber>
+                        </div>
+                        <button type="submit" class="btn btn-save-nasabah me-2" @onclick="HandleSubmit">Save</button>
+                        <button type="button" class="btn btn-danger" @onclick="Cancel">Cancel</button>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<Footer roleId="user.Role"></Footer>
+
+
+@code {
+
+    [Parameter]
+    public int UserId { get; set; }
+
+    [Parameter]
+    public int atmId { get; set; }
+
+    Nasabah nasabah = new Nasabah();
+
+    User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        nasabah = await Task.Run(() => nasabahService.GetNasabahByUserId(this.UserId));
+        user = await Task.Run(() => userService.GetUserById(this.UserId));
+    }
+
+    protected async void HandleSubmit()
+    {
+        string md5Password = GetMd5Hash(nasabah.PinAtm.ToString());
+        user.Password = md5Password;
+
+        await userService.UpdateUser(this.user);
+        await nasabahService.UpdateNasabah(this.nasabah);
+
+        NavigationManager.NavigateTo($"/nasabah/{UserId}/{atmId}");
+    }
+
+    private string GetMd5Hash(string input)
+    {
+        using (MD5 md5Hash = MD5.Create())
+        {
+            byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
+
+            StringBuilder sBuilder = new StringBuilder();
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                sBuilder.Append(data[i].ToString("x2"));
+            }
+
+            return sBuilder.ToString();
+        }
+    }
+
+    void Cancel()
+    {
+        NavigationManager.NavigateTo($"/nasabah/{UserId}/{atmId}");
+    }
+
+}

@@ -1,0 +1,21 @@
+﻿<div class="footer @(roleId == 0 ? "admin-footer" : "nasabah-footer")">
+    <div class="copyright">
+        <p>All Rights Reserved to <b>marmdhn</b> 2023</p>
+    </div>
+</div>
+
+<style>
+    .admin-footer { 
+        color: #377B8A;
+    }
+
+    .nasabah-footer {
+        color: #FDE2B9;
+    }
+</style>
+
+
+@code {
+	[Parameter]
+    public int roleId { get; set; }
+}

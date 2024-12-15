@@ -1,0 +1,104 @@
+﻿@page "/admin/{UserId:int}/updateAdmin"
+@using ATMBank_.Data;
+@using ATMBank_.Models;
+@using System;
+@using System.Text;
+@using System.Security.Cryptography;
+@using ATMBank_.Pages.Pages_Utils
+@inject AdminService adminService
+@inject UserService userService
+@inject NavigationManager NavigationManager
+
+<PageTitle>ATM Bank</PageTitle>
+
+<div class="bg-admin">
+    <div class="container pt-3">
+
+        <Navbar roleId="user.Role" userId="UserId"></Navbar>
+
+        <div class="row">
+            <div class="col-lg-12 text-white text-center mt-5">
+                <h3 class="fw-bold" style="color: #585858">Update Akun</h3>
+            </div>
+        </div>
+
+        <div class="row row-input m-auto">
+            <div class="col-lg-6 col-md-4 side-image-update-nasabah"></div>
+            <div class="col-lg-6 col-md-4 right m-auto">
+                <div class="input-box" style="color: #585858">
+                    <EditForm Model="admin" OnInvalidSubmit="HandleSubmit">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label fw-bold">Nama:</label>
+                            <InputText id="nama" @bind-Value="admin.NamaAdmin" class="form-control">
+                            </InputText>
+                        </div>
+                        <div class="mb-3">
+                            <label for="UsernameAdmin" class="form-label fw-bold">Username:</label>
+                            <InputText id="UsernameAdmin" @bind-Value="admin.UsernameAdmin" class="form-control">
+                            </InputText>
+                        </div>
+                        <div class="mb-3">
+                            <label for="PasswordAdmin" class="form-label fw-bold">Password:</label>
+                            <InputText id="PasswordAdmin" @bind-Value="admin.PasswordAdmin" class="form-control">
+                            </InputText>
+                        </div>
+                        <button type="submit" class="btn btn-save-admin me-2" @onclick="HandleSubmit">Save</button>
+                        <button type="button" class="btn btn-danger" @onclick="Cancel">Cancel</button>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Footer roleId="user.Role"></Footer>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public int UserId { get; set; }
+
+    Admin admin = new Admin();
+
+    User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        admin = await Task.Run(() => adminService.GetAdminByUserId(this.UserId));
+        user = await Task.Run(() => userService.GetUserById(this.UserId));
+    }
+
+    protected async void HandleSubmit()
+    {
+        string md5Password = GetMd5Hash(admin.PasswordAdmin!);
+        user.Password = md5Password;
+
+        await userService.UpdateUser(this.user);
+        await adminService.UpdateAdmin(this.admin);
+
+        NavigationManager.NavigateTo($"/admin/{UserId}/chooseATM");
+    }
+
+    private string GetMd5Hash(string input)
+    {
+        using (MD5 md5Hash = MD5.Create())
+        {
+            byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
+
+            StringBuilder sBuilder = new StringBuilder();
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                sBuilder.Append(data[i].ToString("x2"));
+            }
+
+            return sBuilder.ToString();
+        }
+    }
+
+    void Cancel()
+    {
+        NavigationManager.NavigateTo($"/admin/{UserId}/chooseATM");
+    }
+
+}

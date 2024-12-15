@@ -1,0 +1,57 @@
+﻿<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a href="@(roleId == 0 ? $"/admin/{userId}/chooseATM" : $"/nasabah/{userId}/chooseATM")" class="@(roleId == 0 ? "admin-navbar" : "nasabah-navbar") fs-2" style="text-decoration:none; cursor:pointer">Bank <b>Athaloka</b></a>
+        <a href="/" class="btn @(roleId == 0 ? "admin-btn-logout" : "nasabah-btn-logout")">Keluar</a>
+    </div>
+</nav>
+
+<style>
+    .admin-navbar {
+        color: #377B8A;
+        transition: .2s ease-in-out;
+        
+    }
+
+    .nasabah-navbar {
+        color: #FDE2B9;
+        transition: .2s ease-in-out;
+    }
+
+    .admin-navbar:hover, .nasabah-navbar:hover{
+        color: #585858;
+    }
+
+    .nasabah-btn-logout {
+        font-weight: 700;
+        color: #FDE2B9;
+        border-color: #FDE2B9;
+        border-width: 2px;
+        border-radius: 8px;
+    }
+
+    .nasabah-btn-logout:hover {
+        background: #FDE2B9;
+        color: #2AA3BE;
+    }
+        
+    .admin-btn-logout {
+        font-weight: 700;
+        color: #377B8A;
+        border-color: #377B8A;
+        border-width: 2px;
+        border-radius: 8px;
+    }
+
+    .admin-btn-logout:hover {
+        color: #FDE2B9;
+        background: #377B8A;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public int roleId { get; set; }
+
+    [Parameter]
+    public int userId { get; set; }
+}
