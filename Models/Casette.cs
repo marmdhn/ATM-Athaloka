@@ -5,7 +5,7 @@ namespace ATMBank_.Models;
     {
         public int id { get; set; }
 
-        public int atm_id { get; set; }
+        public int AtmId { get; set; }
 
         public int nominal { get; set; }
 
