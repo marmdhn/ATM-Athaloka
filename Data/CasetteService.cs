@@ -33,7 +33,7 @@ namespace ATMBank_.Data
         public async Task<List<Casette>> GetCasettesByATMId(int idAtm)
         {
             List<Casette> casettes = await _applicationDbContext.casettes
-                .Where(x => x.atm_id == idAtm)
+                .Where(x => x.AtmId == idAtm)
                 .ToListAsync();
 
             return casettes;
