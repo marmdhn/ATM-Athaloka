@@ -78,7 +78,7 @@ namespace ATMBank_.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ATMId")
+                    b.Property<int>("atm_id")
                         .HasColumnType("int");
 
                     b.Property<int>("Jumlah")
@@ -89,7 +89,7 @@ namespace ATMBank_.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ATMId");
+                    b.HasIndex("atm_id");
 
                     b.ToTable("Casettes");
                 });
@@ -166,7 +166,7 @@ namespace ATMBank_.Migrations
                 {
                     b.HasOne("ATMBank_.Models.ATM", null)
                         .WithMany("Casettes")
-                        .HasForeignKey("ATMId")
+                        .HasForeignKey("atm_id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

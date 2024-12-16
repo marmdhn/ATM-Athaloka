@@ -64,7 +64,7 @@ namespace ATMBank_.Migrations
                     user_id = table.Column<int>(type: "integer", nullable: false),
                     admin_name = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: true),
                     admin_username = table.Column<string>(type: "text", nullable: true),
-                    admin_password = table.Column<string>(type: "character varying(8)", maxLength: 8, nullable: true)
+                    admin_password = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
