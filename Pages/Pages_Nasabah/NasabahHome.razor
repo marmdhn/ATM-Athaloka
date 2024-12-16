@@ -1,0 +1,94 @@
+﻿@page "/nasabah/{UserId:int}/{atmId:int}"
+@using ATMBank_.Data;
+@using ATMBank_.Models;
+@using ATMBank_.Pages.Pages_Utils
+@inject NasabahService nasabahService
+@inject ATMService atmService
+@inject UserService userService
+
+<PageTitle>ATM Bank</PageTitle>
+
+<div class="bg-nasabah">
+    <div class="container pt-3">
+
+        <Navbar roleId="user.role" userId="UserId"></Navbar>
+
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-6 col-sm-4 m-auto col-md-3 text-white">
+                <div class="col-sm-8 mx-auto">
+                    <h5>Selamat Datang!</h5>
+                    <p class="fs-3"><b>@_customer.customer_name</b></p>
+                </div>
+                <div class="col-sm-8 mx-auto">
+                    <h5>Saldo</h5>
+                    <p class="fs-3"><b>Rp @_customer.balance.ToString("#,##0")</b></p>
+                </div>
+                <div class="col-sm-8 mx-auto">
+                    <h5>No Rekening</h5>
+                    <p class="fs-3"><b>@_customer.account_number</b></p>
+                </div>
+                <div class="col-sm-8 mx-auto">
+                    <h5>Cabang ATM</h5>
+                    <p class="fs-3"><b>@atm.atm_name</b></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-4 col-md-3 m-auto">
+                <a href="/nasabah/@UserId/@atmId/tarikTunai" style="text-decoration: none;">
+                    <div class="card text-center mx-auto shadow mt-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16" style="color:#288D63">
+                                <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
+                            </svg>
+                            <h3 class="card-title mt-3" style="color:#5B5B5B;"><b>Tarik Tunai</b></h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/nasabah/@UserId/@atmId/setorTunai" style="text-decoration: none;">
+                    <div class="card text-center mx-auto shadow mt-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16" style="color:#288D63">
+                                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
+                            </svg>
+                            <h3 class="card-title mt-3" style="color:#5B5B5B;"><b>Setor Tunai</b></h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/nasabah/@UserId/@atmId/nasabahUpdate" style="text-decoration: none;">
+                    <div class="card text-center mx-auto shadow mt-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16" style="color:#288D63">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                            </svg>
+                            <h3 class="card-title mt-3" style="color:#5B5B5B;"><b>Update Akun</b></h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<Footer roleId="user.role"></Footer>
+
+@code {
+    [Parameter]
+    public int UserId { get; set; }
+
+    [Parameter]
+    public int atmId{ get; set; }
+
+    User user = new User();
+
+    private Customer _customer = new Customer();
+
+    private ATM atm = new ATM();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _customer = await Task.Run(() => nasabahService.GetNasabahByUserId(UserId));
+        atm = await Task.Run(() => atmService.GetATMById(atmId));
+        user = await Task.Run(() => userService.GetUserById(UserId));
+    }
+}

@@ -1,0 +1,32 @@
+﻿# .env file
+.env
+
+# Logs
+*.log
+logs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and Publish
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio Cache
+.vscode/
+.idea/
+*.cache
+*.vs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/

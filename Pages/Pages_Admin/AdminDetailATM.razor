@@ -1,0 +1,83 @@
+﻿@page "/admin/{UserId:int}/{atmId:int}/detailMonitoring"
+@using ATMBank_.Data
+@using ATMBank_.Models;
+@using ATMBank_.Pages.Pages_Utils
+@inject CasetteService casetteService
+@inject ATMService atmService
+@inject UserService userService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Monitoring ATM Bank</PageTitle>
+
+<div class="bg-admin">
+    <div class="container pt-3">
+
+        <Navbar roleId="user.role" userId="UserId"></Navbar>
+
+        <div class="row px-3 mb-3">
+            <div class="col-lg-12">
+                <h3 class="mt-3 fw-bold" style="color: #585858">Monitoring @atm.atm_name</h3>
+                <p style="font-weight: 500;">Berikut adalah jumlah uang kertas yang masih ada pada menis ATM ini.</p>
+            </div>
+        </div>
+
+        @if (casette is null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <div class="px-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nominal</th>
+                            <th>Jumlah</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cas in casette!)
+                        {
+                            <tr>
+                                <td>@(casette.IndexOf(cas) + 1)</td>
+                                <td>Rp. @cas.nominal.ToString("#,##0")</td>
+                                <td>@cas.quantity</td>
+                                <td>
+                                    <a href="/admin/@UserId/@atmId/@cas.id/casetteUpdate">
+                                        <span type="button" class="btn btn-primary mb-1" style="background-color:#377B8A"><i class="oi oi-pencil"></i></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+    <Footer roleId="@user.role"></Footer>
+</div>
+
+@code {
+    [Parameter]
+    public int UserId { get; set; }
+
+    [Parameter]
+    public int atmId { get; set; }
+
+    User user = new User();
+
+    ATM atm = new ATM();
+
+    List<Casette>? casette;
+
+    protected override async Task OnInitializedAsync()
+    {
+        casette = await Task.Run(() => casetteService.GetCasettesByATMId(this.atmId));
+
+        atm = await Task.Run(() => atmService.GetATMById(this.atmId));
+
+        user = await Task.Run(() => userService.GetUserById(this.UserId));
+    }
+}
