@@ -1,12 +1,11 @@
 ﻿@page "/admin/{UserId:int}/updateAdmin"
 @using ATMBank_.Data;
 @using ATMBank_.Models;
-@using System;
 @using System.Text;
 @using System.Security.Cryptography;
 @using ATMBank_.Pages.Pages_Utils
-@inject AdminService adminService
-@inject UserService userService
+@inject AdminService AdminService
+@inject UserService UserService
 @inject NavigationManager NavigationManager
 
 <PageTitle>ATM Bank</PageTitle>
@@ -14,7 +13,7 @@
 <div class="bg-admin">
     <div class="container pt-3">
 
-        <Navbar roleId="user.role" userId="UserId"></Navbar>
+        <Navbar roleId="_user.role" userId="UserId"></Navbar>
 
         <div class="row">
             <div class="col-lg-12 text-white text-center mt-5">
@@ -26,22 +25,32 @@
             <div class="col-lg-6 col-md-4 side-image-update-nasabah"></div>
             <div class="col-lg-6 col-md-4 right m-auto">
                 <div class="input-box" style="color: #585858">
-                    <EditForm Model="admin" OnInvalidSubmit="HandleSubmit">
+                    <EditForm Model="_admin" OnInvalidSubmit="HandleSubmit">
                         <div class="mb-3">
                             <label for="nama" class="form-label fw-bold">Nama:</label>
-                            <InputText id="nama" @bind-Value="admin.admin_name" class="form-control">
+                            <InputText id="nama" @bind-Value="_admin.admin_name" class="form-control">
                             </InputText>
                         </div>
                         <div class="mb-3">
                             <label for="UsernameAdmin" class="form-label fw-bold">Username:</label>
-                            <InputText id="UsernameAdmin" @bind-Value="admin.admin_username" class="form-control">
+                            <InputText id="UsernameAdmin" @bind-Value="_admin.admin_username" class="form-control">
                             </InputText>
                         </div>
                         <div class="mb-3">
-                            <label for="PasswordAdmin" class="form-label fw-bold">Password:</label>
-                            <InputText id="PasswordAdmin" @bind-Value="admin.admin_password" class="form-control">
-                            </InputText>
+                            <label for="PasswordAdmin" class="form-label fw-bold">Password Baru:</label>
+                            <div class="input-group">
+                                <InputText id="PasswordAdmin"
+                                           @bind-Value="_newPassword"
+                                           type="@(_isPasswordVisible ? "text" : "password")"
+                                           class="form-control">
+                                </InputText>
+                                <button type="button" class="btn btn-secondary" @onclick="TogglePasswordVisibility">
+                                    <i class="bi @(_isPasswordVisible ? "bi-eye-slash" : "bi-eye")"></i>
+                                </button>
+                            </div>
                         </div>
+
+
                         <button type="submit" class="btn btn-save-admin me-2" @onclick="HandleSubmit">Save</button>
                         <button type="button" class="btn btn-danger" @onclick="Cancel">Cancel</button>
                     </EditForm>
@@ -49,7 +58,7 @@
             </div>
         </div>
     </div>
-    <Footer roleId="user.role"></Footer>
+    <Footer roleId="_user.role"></Footer>
 </div>
 
 
@@ -58,23 +67,30 @@
     [Parameter]
     public int UserId { get; set; }
 
-    Admin admin = new Admin();
+    Admin _admin = new Admin();
 
-    User user = new User();
+    User _user = new User();
 
+    private string _newPassword = string.Empty;
+    
+    private bool _isPasswordVisible;
+    
     protected override async Task OnInitializedAsync()
     {
-        admin = await Task.Run(() => adminService.GetAdminByUserId(this.UserId));
-        user = await Task.Run(() => userService.GetUserById(this.UserId));
+        _admin = await Task.Run(() => AdminService.GetAdminByUserId(this.UserId));
+        _user = await Task.Run(() => UserService.GetUserById(this.UserId));
     }
 
     protected async void HandleSubmit()
     {
-        string md5Password = GetMd5Hash(admin.admin_password!);
-        user.password = md5Password;
+        if (!string.IsNullOrEmpty(_newPassword))
+        {
+            string md5Password = GetMd5Hash(_newPassword);
+            _user.password = md5Password;
+        }
 
-        await userService.UpdateUser(this.user);
-        await adminService.UpdateAdmin(this.admin);
+        await UserService.UpdateUser(this._user);
+        await AdminService.UpdateAdmin(this._admin);
 
         NavigationManager.NavigateTo($"/admin/{UserId}/chooseATM");
     }
@@ -94,6 +110,11 @@
 
             return sBuilder.ToString();
         }
+    }
+    
+    void TogglePasswordVisibility()
+    {
+        _isPasswordVisible = !_isPasswordVisible;
     }
 
     void Cancel()
